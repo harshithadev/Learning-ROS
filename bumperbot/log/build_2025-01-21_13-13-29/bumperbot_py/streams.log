@@ -1,0 +1,27 @@
+[0.658s] Invoking command in '/home/harshdev/Documents/harsh/ROS/bumperbot/src/bumperbot_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/harshdev/Documents/harsh/ROS/bumperbot/build/bumperbot_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshdev/Documents/harsh/ROS/bumperbot/install/bumperbot_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py build --build-base /home/harshdev/Documents/harsh/ROS/bumperbot/build/bumperbot_py/build install --record /home/harshdev/Documents/harsh/ROS/bumperbot/build/bumperbot_py/install.log --single-version-externally-managed install_data
+[0.823s] running egg_info
+[0.835s] writing ../../build/bumperbot_py/bumperbot_py.egg-info/PKG-INFO
+[0.835s] writing dependency_links to ../../build/bumperbot_py/bumperbot_py.egg-info/dependency_links.txt
+[0.835s] writing entry points to ../../build/bumperbot_py/bumperbot_py.egg-info/entry_points.txt
+[0.835s] writing requirements to ../../build/bumperbot_py/bumperbot_py.egg-info/requires.txt
+[0.835s] writing top-level names to ../../build/bumperbot_py/bumperbot_py.egg-info/top_level.txt
+[0.858s] reading manifest file '../../build/bumperbot_py/bumperbot_py.egg-info/SOURCES.txt'
+[0.859s] writing manifest file '../../build/bumperbot_py/bumperbot_py.egg-info/SOURCES.txt'
+[0.859s] running build
+[0.859s] running build_py
+[0.860s] copying bumperbot_py/simple_subscriber.py -> /home/harshdev/Documents/harsh/ROS/bumperbot/build/bumperbot_py/build/lib/bumperbot_py
+[0.860s] copying bumperbot_py/simple_publisher.py -> /home/harshdev/Documents/harsh/ROS/bumperbot/build/bumperbot_py/build/lib/bumperbot_py
+[0.860s] running install
+[0.864s] running install_lib
+[0.875s] copying /home/harshdev/Documents/harsh/ROS/bumperbot/build/bumperbot_py/build/lib/bumperbot_py/simple_subscriber.py -> /home/harshdev/Documents/harsh/ROS/bumperbot/install/bumperbot_py/lib/python3.12/site-packages/bumperbot_py
+[0.875s] copying /home/harshdev/Documents/harsh/ROS/bumperbot/build/bumperbot_py/build/lib/bumperbot_py/simple_publisher.py -> /home/harshdev/Documents/harsh/ROS/bumperbot/install/bumperbot_py/lib/python3.12/site-packages/bumperbot_py
+[0.875s] byte-compiling /home/harshdev/Documents/harsh/ROS/bumperbot/install/bumperbot_py/lib/python3.12/site-packages/bumperbot_py/simple_subscriber.py to simple_subscriber.cpython-312.pyc
+[0.876s] byte-compiling /home/harshdev/Documents/harsh/ROS/bumperbot/install/bumperbot_py/lib/python3.12/site-packages/bumperbot_py/simple_publisher.py to simple_publisher.cpython-312.pyc
+[0.876s] running install_data
+[0.876s] running install_egg_info
+[0.888s] removing '/home/harshdev/Documents/harsh/ROS/bumperbot/install/bumperbot_py/lib/python3.12/site-packages/bumperbot_py-0.0.0-py3.12.egg-info' (and everything under it)
+[0.888s] Copying ../../build/bumperbot_py/bumperbot_py.egg-info to /home/harshdev/Documents/harsh/ROS/bumperbot/install/bumperbot_py/lib/python3.12/site-packages/bumperbot_py-0.0.0-py3.12.egg-info
+[0.889s] running install_scripts
+[0.969s] Installing simple_publisher script to /home/harshdev/Documents/harsh/ROS/bumperbot/install/bumperbot_py/lib/bumperbot_py
+[0.970s] writing list of installed files to '/home/harshdev/Documents/harsh/ROS/bumperbot/build/bumperbot_py/install.log'
+[0.995s] Invoked command in '/home/harshdev/Documents/harsh/ROS/bumperbot/src/bumperbot_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/harshdev/Documents/harsh/ROS/bumperbot/build/bumperbot_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshdev/Documents/harsh/ROS/bumperbot/install/bumperbot_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py build --build-base /home/harshdev/Documents/harsh/ROS/bumperbot/build/bumperbot_py/build install --record /home/harshdev/Documents/harsh/ROS/bumperbot/build/bumperbot_py/install.log --single-version-externally-managed install_data
