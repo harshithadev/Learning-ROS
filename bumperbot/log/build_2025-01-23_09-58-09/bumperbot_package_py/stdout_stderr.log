@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/bumperbot_package_py/bumperbot_package_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/bumperbot_package_py/bumperbot_package_py.egg-info/dependency_links.txt
+writing entry points to ../../build/bumperbot_package_py/bumperbot_package_py.egg-info/entry_points.txt
+writing requirements to ../../build/bumperbot_package_py/bumperbot_package_py.egg-info/requires.txt
+writing top-level names to ../../build/bumperbot_package_py/bumperbot_package_py.egg-info/top_level.txt
+reading manifest file '../../build/bumperbot_package_py/bumperbot_package_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/bumperbot_package_py/bumperbot_package_py.egg-info/SOURCES.txt'
+running build
+running build_py
+copying bumperbot_package_py/subscriber.py -> /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/build/bumperbot_package_py/build/lib/bumperbot_package_py
+running install
+running install_lib
+copying /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/build/bumperbot_package_py/build/lib/bumperbot_package_py/subscriber.py -> /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/install/bumperbot_package_py/lib/python3.12/site-packages/bumperbot_package_py
+byte-compiling /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/install/bumperbot_package_py/lib/python3.12/site-packages/bumperbot_package_py/subscriber.py to subscriber.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/install/bumperbot_package_py/lib/python3.12/site-packages/bumperbot_package_py-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/bumperbot_package_py/bumperbot_package_py.egg-info to /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/install/bumperbot_package_py/lib/python3.12/site-packages/bumperbot_package_py-0.0.0-py3.12.egg-info
+running install_scripts
+Installing publisher script to /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/install/bumperbot_package_py/lib/bumperbot_package_py
+writing list of installed files to '/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/build/bumperbot_package_py/install.log'

@@ -10,6 +10,7 @@ setup.py
 ../../build/bumperbot_package_py/bumperbot_package_py.egg-info/zip-safe
 bumperbot_package_py/__init__.py
 bumperbot_package_py/publisher.py
+bumperbot_package_py/subscriber.py
 resource/bumperbot_package_py
 test/test_copyright.py
 test/test_flake8.py
