@@ -21,6 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'publisher = bumperbot_package_py.publisher:main',
+            'subscriber = bumperbot_package_py.subscriber:main',
+            'parameters = bumperbot_package_py.parameters:main', 
         ],
     },
 )
