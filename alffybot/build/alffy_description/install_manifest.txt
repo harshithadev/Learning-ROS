@@ -1,3 +1,4 @@
+/home/harshdev/Learning-ROS/alffybot/install/alffy_description/share/alffy_description/launch/display.launch.py
 /home/harshdev/Learning-ROS/alffybot/install/alffy_description/share/alffy_description/meshes/base_link.STL
 /home/harshdev/Learning-ROS/alffybot/install/alffy_description/share/alffy_description/meshes/caster_front_link.STL
 /home/harshdev/Learning-ROS/alffybot/install/alffy_description/share/alffy_description/meshes/imu_link.STL
@@ -6,6 +7,7 @@
 /home/harshdev/Learning-ROS/alffybot/install/alffy_description/share/alffy_description/meshes/wheel_right_link.STL
 /home/harshdev/Learning-ROS/alffybot/install/alffy_description/share/alffy_description/urdf/alffy_gazebo.xacro
 /home/harshdev/Learning-ROS/alffybot/install/alffy_description/share/alffy_description/urdf/alffy.urdf.xacro
+/home/harshdev/Learning-ROS/alffybot/install/alffy_description/share/alffy_description/rviz/display.rviz
 /home/harshdev/Learning-ROS/alffybot/install/alffy_description/share/ament_index/resource_index/package_run_dependencies/alffy_description
 /home/harshdev/Learning-ROS/alffybot/install/alffy_description/share/ament_index/resource_index/parent_prefix_path/alffy_description
 /home/harshdev/Learning-ROS/alffybot/install/alffy_description/share/alffy_description/environment/ament_prefix_path.sh
