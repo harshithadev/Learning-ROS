@@ -1,0 +1,4 @@
+[console_scripts]
+parameters = bumperbot_package_py.parameters:main
+publisher = bumperbot_package_py.publisher:main
+subscriber = bumperbot_package_py.subscriber:main

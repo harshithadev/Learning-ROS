@@ -1,0 +1,45 @@
+[0.824s] Invoking command in '/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/bumperbot_package_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumperbot_package_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/install/bumperbot_package_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bumperbot_package_py build --build-base /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumperbot_package_py/build install --record /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumperbot_package_py/install.log --single-version-externally-managed install_data
+[1.035s] running egg_info
+[1.035s] creating ../build/bumperbot_package_py/bumperbot_package_py.egg-info
+[1.052s] writing ../build/bumperbot_package_py/bumperbot_package_py.egg-info/PKG-INFO
+[1.052s] writing dependency_links to ../build/bumperbot_package_py/bumperbot_package_py.egg-info/dependency_links.txt
+[1.052s] writing entry points to ../build/bumperbot_package_py/bumperbot_package_py.egg-info/entry_points.txt
+[1.052s] writing requirements to ../build/bumperbot_package_py/bumperbot_package_py.egg-info/requires.txt
+[1.053s] writing top-level names to ../build/bumperbot_package_py/bumperbot_package_py.egg-info/top_level.txt
+[1.053s] writing manifest file '../build/bumperbot_package_py/bumperbot_package_py.egg-info/SOURCES.txt'
+[1.126s] reading manifest file '../build/bumperbot_package_py/bumperbot_package_py.egg-info/SOURCES.txt'
+[1.127s] writing manifest file '../build/bumperbot_package_py/bumperbot_package_py.egg-info/SOURCES.txt'
+[1.127s] running build
+[1.128s] running build_py
+[1.129s] creating /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumperbot_package_py/build
+[1.129s] creating /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumperbot_package_py/build/lib
+[1.129s] creating /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumperbot_package_py/build/lib/bumperbot_package_py
+[1.130s] copying bumperbot_package_py/__init__.py -> /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumperbot_package_py/build/lib/bumperbot_package_py
+[1.130s] copying bumperbot_package_py/publisher.py -> /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumperbot_package_py/build/lib/bumperbot_package_py
+[1.130s] copying bumperbot_package_py/subscriber.py -> /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumperbot_package_py/build/lib/bumperbot_package_py
+[1.131s] copying bumperbot_package_py/parameters.py -> /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumperbot_package_py/build/lib/bumperbot_package_py
+[1.131s] running install
+[1.138s] running install_lib
+[1.160s] creating /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/install/bumperbot_package_py/lib/python3.12/site-packages/bumperbot_package_py
+[1.160s] copying /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumperbot_package_py/build/lib/bumperbot_package_py/__init__.py -> /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/install/bumperbot_package_py/lib/python3.12/site-packages/bumperbot_package_py
+[1.160s] copying /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumperbot_package_py/build/lib/bumperbot_package_py/publisher.py -> /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/install/bumperbot_package_py/lib/python3.12/site-packages/bumperbot_package_py
+[1.160s] copying /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumperbot_package_py/build/lib/bumperbot_package_py/subscriber.py -> /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/install/bumperbot_package_py/lib/python3.12/site-packages/bumperbot_package_py
+[1.160s] copying /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumperbot_package_py/build/lib/bumperbot_package_py/parameters.py -> /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/install/bumperbot_package_py/lib/python3.12/site-packages/bumperbot_package_py
+[1.160s] byte-compiling /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/install/bumperbot_package_py/lib/python3.12/site-packages/bumperbot_package_py/__init__.py to __init__.cpython-312.pyc
+[1.160s] byte-compiling /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/install/bumperbot_package_py/lib/python3.12/site-packages/bumperbot_package_py/publisher.py to publisher.cpython-312.pyc
+[1.161s] byte-compiling /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/install/bumperbot_package_py/lib/python3.12/site-packages/bumperbot_package_py/subscriber.py to subscriber.cpython-312.pyc
+[1.161s] byte-compiling /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/install/bumperbot_package_py/lib/python3.12/site-packages/bumperbot_package_py/parameters.py to parameters.cpython-312.pyc
+[1.161s] running install_data
+[1.162s] creating /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/install/bumperbot_package_py/share/ament_index
+[1.162s] creating /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/install/bumperbot_package_py/share/ament_index/resource_index
+[1.162s] creating /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/install/bumperbot_package_py/share/ament_index/resource_index/packages
+[1.162s] copying resource/bumperbot_package_py -> /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/install/bumperbot_package_py/share/ament_index/resource_index/packages
+[1.162s] copying package.xml -> /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/install/bumperbot_package_py/share/bumperbot_package_py
+[1.162s] running install_egg_info
+[1.178s] Copying ../build/bumperbot_package_py/bumperbot_package_py.egg-info to /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/install/bumperbot_package_py/lib/python3.12/site-packages/bumperbot_package_py-0.0.0-py3.12.egg-info
+[1.179s] running install_scripts
+[1.277s] Installing parameters script to /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/install/bumperbot_package_py/lib/bumperbot_package_py
+[1.277s] Installing publisher script to /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/install/bumperbot_package_py/lib/bumperbot_package_py
+[1.277s] Installing subscriber script to /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/install/bumperbot_package_py/lib/bumperbot_package_py
+[1.278s] writing list of installed files to '/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumperbot_package_py/install.log'
+[1.318s] Invoked command in '/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/bumperbot_package_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumperbot_package_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/install/bumperbot_package_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bumperbot_package_py build --build-base /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumperbot_package_py/build install --record /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumperbot_package_py/install.log --single-version-externally-managed install_data
