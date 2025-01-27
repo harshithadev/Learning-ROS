@@ -1,4 +1,5 @@
 /home/harshdev/Learning-ROS/alffybot/install/alffy_description/share/alffy_description/launch/display.launch.py
+/home/harshdev/Learning-ROS/alffybot/install/alffy_description/share/alffy_description/launch/gazebo.launch.py
 /home/harshdev/Learning-ROS/alffybot/install/alffy_description/share/alffy_description/meshes/base_link.STL
 /home/harshdev/Learning-ROS/alffybot/install/alffy_description/share/alffy_description/meshes/caster_front_link.STL
 /home/harshdev/Learning-ROS/alffybot/install/alffy_description/share/alffy_description/meshes/imu_link.STL
