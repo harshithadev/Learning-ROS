@@ -43,6 +43,15 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_description" TYPE DIRECTORY FILES
+    "/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/bumperbot_description/meshes"
+    "/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/bumperbot_description/urdf"
+    "/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/bumperbot_description/launch"
+    "/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/bumperbot_description/rviz"
+    )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/build/bumperbot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bumperbot_description")
 endif()
 

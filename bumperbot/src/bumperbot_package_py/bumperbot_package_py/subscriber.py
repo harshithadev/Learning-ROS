@@ -5,11 +5,11 @@ from std_msgs.msg import String
  
  
 
-class SimpleSubscriber(Node): 
+class Subscriber(Node): 
 
     def __init__(self): 
 
-        super().__init__("simple_subscriber") 
+        super().__init__("subscriber") 
         self.sub_ = self.create_subscription(String, "chatter", self.msgCallback, 10) 
     
         def msgCallback(self, msg): 
@@ -18,7 +18,7 @@ class SimpleSubscriber(Node):
 def main(): 
 
     rclpy.init() 
-    sub = SimpleSubscriber() 
+    sub = Subscriber() 
     rclpy.spin(sub) 
     sub.destroy_node() 
     rclpy.shutdown() 

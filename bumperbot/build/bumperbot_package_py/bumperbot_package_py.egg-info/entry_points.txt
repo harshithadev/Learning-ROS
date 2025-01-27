@@ -1,2 +1,0 @@
-[console_scripts]
-publisher = bumperbot_package_py.publisher:main

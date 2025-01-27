@@ -1,3 +1,16 @@
+/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/install/bumperbot_description/share/bumperbot_description/meshes/base_link.STL
+/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL
+/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/install/bumperbot_description/share/bumperbot_description/meshes/imu_link.STL
+/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/install/bumperbot_description/share/bumperbot_description/meshes/caster_rear_link.STL
+/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/install/bumperbot_description/share/bumperbot_description/meshes/wheel_left_link.STL
+/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.STL
+/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_ros2_control.xacro
+/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/install/bumperbot_description/share/bumperbot_description/urdf/alfred.urdf.xacro
+/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.urdf.xacro
+/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_gazebo.xacro
+/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/install/bumperbot_description/share/bumperbot_description/launch/display.launch.py
+/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/install/bumperbot_description/share/bumperbot_description/launch/gazebo.launch.py
+/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/install/bumperbot_description/share/bumperbot_description/rviz/display.rviz
 /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description
 /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description
 /home/harshdev/Documents/harsh/Learning-ROS/bumperbot/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh
