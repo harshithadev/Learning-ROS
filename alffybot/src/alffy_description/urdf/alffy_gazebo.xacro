@@ -42,4 +42,15 @@
     <maxVel>1.0</maxVel>
   </gazebo>
 
+
+  <!-- ROS 2 Control -->
+  <gazebo>
+    <xacro>
+      <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+        <parameters>$(find alffy_controller)/config/alffy_controllers.yaml</parameters>
+      </plugin>
+    </xacro>
+  </gazebo>
+
+
 </robot>
