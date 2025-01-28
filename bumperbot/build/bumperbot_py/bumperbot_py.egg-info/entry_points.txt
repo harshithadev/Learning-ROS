@@ -1,3 +1,0 @@
-[console_scripts]
-simple_publisher = bumperbot_py.simple_publisher:main
-simple_subscriber = bumperbot_py.simple_subscriber:main

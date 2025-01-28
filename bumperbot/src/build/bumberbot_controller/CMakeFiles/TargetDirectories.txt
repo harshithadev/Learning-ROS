@@ -1,9 +1,0 @@
-/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumberbot_controller/CMakeFiles/uninstall.dir
-/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumberbot_controller/CMakeFiles/bumberbot_controller_uninstall.dir
-/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumberbot_controller/CMakeFiles/test.dir
-/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumberbot_controller/CMakeFiles/edit_cache.dir
-/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumberbot_controller/CMakeFiles/rebuild_cache.dir
-/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumberbot_controller/CMakeFiles/list_install_components.dir
-/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumberbot_controller/CMakeFiles/install.dir
-/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumberbot_controller/CMakeFiles/install/local.dir
-/home/harshdev/Documents/harsh/Learning-ROS/bumperbot/src/build/bumberbot_controller/CMakeFiles/install/strip.dir
