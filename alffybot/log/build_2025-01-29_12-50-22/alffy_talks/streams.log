@@ -1,0 +1,23 @@
+[0.657s] Invoking command in '/home/harshdev/Learning-ROS/alffybot/src/alffy_talks': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/harshdev/Learning-ROS/alffybot/build/alffy_talks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshdev/Learning-ROS/alffybot/install/alffy_talks/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/alffy_talks build --build-base /home/harshdev/Learning-ROS/alffybot/build/alffy_talks/build install --record /home/harshdev/Learning-ROS/alffybot/build/alffy_talks/install.log --single-version-externally-managed install_data
+[0.877s] running egg_info
+[0.888s] writing ../../build/alffy_talks/alffy_talks.egg-info/PKG-INFO
+[0.888s] writing dependency_links to ../../build/alffy_talks/alffy_talks.egg-info/dependency_links.txt
+[0.888s] writing entry points to ../../build/alffy_talks/alffy_talks.egg-info/entry_points.txt
+[0.888s] writing requirements to ../../build/alffy_talks/alffy_talks.egg-info/requires.txt
+[0.888s] writing top-level names to ../../build/alffy_talks/alffy_talks.egg-info/top_level.txt
+[0.911s] reading manifest file '../../build/alffy_talks/alffy_talks.egg-info/SOURCES.txt'
+[0.912s] writing manifest file '../../build/alffy_talks/alffy_talks.egg-info/SOURCES.txt'
+[0.912s] running build
+[0.912s] running build_py
+[0.912s] running install
+[0.916s] running install_lib
+[0.927s] running install_data
+[0.927s] running install_egg_info
+[0.939s] removing '/home/harshdev/Learning-ROS/alffybot/install/alffy_talks/lib/python3.12/site-packages/alffy_talks-0.0.0-py3.12.egg-info' (and everything under it)
+[0.939s] Copying ../../build/alffy_talks/alffy_talks.egg-info to /home/harshdev/Learning-ROS/alffybot/install/alffy_talks/lib/python3.12/site-packages/alffy_talks-0.0.0-py3.12.egg-info
+[0.940s] running install_scripts
+[1.038s] Installing parameters script to /home/harshdev/Learning-ROS/alffybot/install/alffy_talks/lib/alffy_talks
+[1.038s] Installing publisher script to /home/harshdev/Learning-ROS/alffybot/install/alffy_talks/lib/alffy_talks
+[1.038s] Installing subscriber script to /home/harshdev/Learning-ROS/alffybot/install/alffy_talks/lib/alffy_talks
+[1.038s] writing list of installed files to '/home/harshdev/Learning-ROS/alffybot/build/alffy_talks/install.log'
+[1.075s] Invoked command in '/home/harshdev/Learning-ROS/alffybot/src/alffy_talks' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/harshdev/Learning-ROS/alffybot/build/alffy_talks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshdev/Learning-ROS/alffybot/install/alffy_talks/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/alffy_talks build --build-base /home/harshdev/Learning-ROS/alffybot/build/alffy_talks/build install --record /home/harshdev/Learning-ROS/alffybot/build/alffy_talks/install.log --single-version-externally-managed install_data

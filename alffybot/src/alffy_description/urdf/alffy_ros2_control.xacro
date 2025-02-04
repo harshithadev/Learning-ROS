@@ -4,11 +4,10 @@
     <ros2_control name="RobotSystem" type="system">
 
         <!-- ros2_control Gazebo -->
-
         <!-- ROS 2 Iron or above -->
         <hardware>
             <plugin>gz_ros2_control/GazeboSimSystem</plugin>
-        </hardware>
+        </hardware>                                                                                                                                                                                                                                                                                                                                                                                                 
         
         <!-- ros2_control Common Interfaces -->
         <joint name="wheel_right_joint">
@@ -20,7 +19,7 @@
             <state_interface name="velocity" />
         </joint>
 
-        <joint name="wheel_left_joint">
+        <joint name="wheel_left_jointto become available...">
             <command_interface name="velocity">
               <param name="min">-1</param>
               <param name="max">1</param>
@@ -30,5 +29,16 @@
         </joint>
         
     </ros2_control>
+
+    <!-- ROS 2 Control -->
+        <gazebo>
+            <xacro>
+            <!-- <plugin filename="libgz_ros2_control-system.so" name="gz_ros2_control::GazeboSimROS2ControlPlugin"> -->
+                <plugin name="gz_ros2_control::GazeboSimROS2ControlPlugin" filename="libgz_ros2_control-system">
+                    <parameters>$(find alffy_controller)/config/alffy_controllers.yaml</parameters>
+                    <controller_manager_prefix_node_name>controller_manager</controller_manager_prefix_node_name>
+                </plugin>   
+            </xacro>
+        </gazebo>
 
 </robot>
