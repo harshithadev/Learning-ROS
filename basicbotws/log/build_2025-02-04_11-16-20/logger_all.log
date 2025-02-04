@@ -1,0 +1,252 @@
+[0.184s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.184s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x714946a94650>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x714946bc0ce0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x714946bc0ce0>>, mixin_verb=('build',))
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.254s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/harshdev/Learning-ROS/basicbotws'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/basicbot) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/basicbot) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/basicbot) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/basicbot) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/basicbot) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/basicbot) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/basicbot) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/basicbot) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/basicbot) by extension 'ros'
+[0.330s] DEBUG:colcon.colcon_core.package_identification:Package 'src/basicbot' with type 'ros.ament_cmake' and name 'basicbot'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_cmd_vel) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_cmd_vel) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_cmd_vel) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_cmd_vel) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_cmd_vel) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_cmd_vel) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_cmd_vel) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_cmd_vel) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_cmd_vel) by extension 'ros'
+[0.332s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joy_to_cmd_vel' with type 'ros.ament_python' and name 'joy_to_cmd_vel'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_cmdvel) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_cmdvel) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_cmdvel) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_cmdvel) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_cmdvel) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_cmdvel) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_cmdvel) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_cmdvel) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_to_cmdvel) by extension 'ros'
+[0.335s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joy_to_cmdvel' with type 'ros.ament_cmake' and name 'joy_to_cmdvel'
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.378s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.378s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.382s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/harshdev/Learning-ROS/basicbotws/install
+[0.382s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/harshdev/Learning-ROS/articubot_one/install
+[0.385s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 450 installed packages in /opt/ros/jazzy
+[0.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'basicbot' build argument 'cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'basicbot' build argument 'cmake_target' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'basicbot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'basicbot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'basicbot' build argument 'cmake_clean_first' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'basicbot' build argument 'cmake_force_configure' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'basicbot' build argument 'ament_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'basicbot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'basicbot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.458s] DEBUG:colcon.colcon_core.verb:Building package 'basicbot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harshdev/Learning-ROS/basicbotws/build/basicbot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harshdev/Learning-ROS/basicbotws/install/basicbot', 'merge_install': False, 'path': '/home/harshdev/Learning-ROS/basicbotws/src/basicbot', 'symlink_install': False, 'test_result_base': None}
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'joy_to_cmd_vel' build argument 'cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'joy_to_cmd_vel' build argument 'cmake_target' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'joy_to_cmd_vel' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'joy_to_cmd_vel' build argument 'cmake_clean_cache' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'joy_to_cmd_vel' build argument 'cmake_clean_first' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'joy_to_cmd_vel' build argument 'cmake_force_configure' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'joy_to_cmd_vel' build argument 'ament_cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'joy_to_cmd_vel' build argument 'catkin_cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'joy_to_cmd_vel' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.459s] DEBUG:colcon.colcon_core.verb:Building package 'joy_to_cmd_vel' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmd_vel', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel', 'merge_install': False, 'path': '/home/harshdev/Learning-ROS/basicbotws/src/joy_to_cmd_vel', 'symlink_install': False, 'test_result_base': None}
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'joy_to_cmdvel' build argument 'cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'joy_to_cmdvel' build argument 'cmake_target' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'joy_to_cmdvel' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'joy_to_cmdvel' build argument 'cmake_clean_cache' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'joy_to_cmdvel' build argument 'cmake_clean_first' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'joy_to_cmdvel' build argument 'cmake_force_configure' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'joy_to_cmdvel' build argument 'ament_cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'joy_to_cmdvel' build argument 'catkin_cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'joy_to_cmdvel' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.459s] DEBUG:colcon.colcon_core.verb:Building package 'joy_to_cmdvel' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmdvel', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel', 'merge_install': False, 'path': '/home/harshdev/Learning-ROS/basicbotws/src/joy_to_cmdvel', 'symlink_install': False, 'test_result_base': None}
+[0.459s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.460s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.460s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/harshdev/Learning-ROS/basicbotws/src/basicbot' with build type 'ament_cmake'
+[0.460s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/harshdev/Learning-ROS/basicbotws/src/basicbot'
+[0.462s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.463s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.463s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.471s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/harshdev/Learning-ROS/basicbotws/src/joy_to_cmd_vel' with build type 'ament_python'
+[0.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_to_cmd_vel', 'ament_prefix_path')
+[0.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/share/joy_to_cmd_vel/hook/ament_prefix_path.ps1'
+[0.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/share/joy_to_cmd_vel/hook/ament_prefix_path.dsv'
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/share/joy_to_cmd_vel/hook/ament_prefix_path.sh'
+[0.477s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.477s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.483s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/harshdev/Learning-ROS/basicbotws/src/joy_to_cmdvel' with build type 'ament_cmake'
+[0.484s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/harshdev/Learning-ROS/basicbotws/src/joy_to_cmdvel'
+[0.485s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.485s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harshdev/Learning-ROS/basicbotws/build/basicbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/harshdev/Learning-ROS/basicbotws/build/basicbot -- -j12 -l12
+[1.013s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/harshdev/Learning-ROS/basicbotws/src/joy_to_cmd_vel'
+[1.013s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.013s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harshdev/Learning-ROS/basicbotws/build/basicbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/harshdev/Learning-ROS/basicbotws/build/basicbot -- -j12 -l12
+[1.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harshdev/Learning-ROS/basicbotws/build/basicbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/harshdev/Learning-ROS/basicbotws/build/basicbot
+[1.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmdvel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmdvel -- -j12 -l12
+[1.083s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(basicbot)
+[1.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harshdev/Learning-ROS/basicbotws/build/basicbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/harshdev/Learning-ROS/basicbotws/build/basicbot
+[1.092s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/basicbot' for CMake module files
+[1.093s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/basicbot' for CMake config files
+[1.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('basicbot', 'cmake_prefix_path')
+[1.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/hook/cmake_prefix_path.ps1'
+[1.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/hook/cmake_prefix_path.dsv'
+[1.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/hook/cmake_prefix_path.sh'
+[1.098s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/basicbot/bin'
+[1.098s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/basicbot/lib/pkgconfig/basicbot.pc'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/basicbot/lib/python3.12/site-packages'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/basicbot/bin'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/package.ps1'
+[1.102s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/package.dsv'
+[1.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/package.sh'
+[1.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/package.bash'
+[1.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/package.zsh'
+[1.108s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/colcon-core/packages/basicbot)
+[1.109s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(basicbot)
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/basicbot' for CMake module files
+[1.110s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/basicbot' for CMake config files
+[1.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('basicbot', 'cmake_prefix_path')
+[1.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/hook/cmake_prefix_path.ps1'
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/hook/cmake_prefix_path.dsv'
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/hook/cmake_prefix_path.sh'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/basicbot/bin'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/basicbot/lib/pkgconfig/basicbot.pc'
+[1.114s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/basicbot/lib/python3.12/site-packages'
+[1.114s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/basicbot/bin'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/package.ps1'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/package.dsv'
+[1.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/package.sh'
+[1.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/package.bash'
+[1.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/package.zsh'
+[1.121s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/colcon-core/packages/basicbot)
+[1.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmdvel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmdvel -- -j12 -l12
+[1.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmdvel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmdvel
+[1.167s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_to_cmdvel)
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel' for CMake module files
+[1.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmdvel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmdvel
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel' for CMake config files
+[1.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_to_cmdvel', 'cmake_prefix_path')
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/share/joy_to_cmdvel/hook/cmake_prefix_path.ps1'
+[1.172s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/share/joy_to_cmdvel/hook/cmake_prefix_path.dsv'
+[1.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/share/joy_to_cmdvel/hook/cmake_prefix_path.sh'
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/bin'
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/lib/pkgconfig/joy_to_cmdvel.pc'
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/lib/python3.12/site-packages'
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/bin'
+[1.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/share/joy_to_cmdvel/package.ps1'
+[1.178s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/share/joy_to_cmdvel/package.dsv'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/share/joy_to_cmdvel/package.sh'
+[1.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/share/joy_to_cmdvel/package.bash'
+[1.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/share/joy_to_cmdvel/package.zsh'
+[1.183s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/share/colcon-core/packages/joy_to_cmdvel)
+[1.184s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_to_cmdvel)
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel' for CMake module files
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel' for CMake config files
+[1.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_to_cmdvel', 'cmake_prefix_path')
+[1.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/share/joy_to_cmdvel/hook/cmake_prefix_path.ps1'
+[1.185s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/share/joy_to_cmdvel/hook/cmake_prefix_path.dsv'
+[1.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/share/joy_to_cmdvel/hook/cmake_prefix_path.sh'
+[1.186s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/bin'
+[1.186s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/lib/pkgconfig/joy_to_cmdvel.pc'
+[1.186s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/lib/python3.12/site-packages'
+[1.187s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/bin'
+[1.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/share/joy_to_cmdvel/package.ps1'
+[1.187s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/share/joy_to_cmdvel/package.dsv'
+[1.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/share/joy_to_cmdvel/package.sh'
+[1.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/share/joy_to_cmdvel/package.bash'
+[1.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/share/joy_to_cmdvel/package.zsh'
+[1.190s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmdvel/share/colcon-core/packages/joy_to_cmdvel)
+[2.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harshdev/Learning-ROS/basicbotws/src/joy_to_cmd_vel': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmd_vel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_to_cmd_vel build --build-base /home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmd_vel/build install --record /home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmd_vel/install.log --single-version-externally-managed install_data
+[2.963s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel' for CMake module files
+[2.965s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harshdev/Learning-ROS/basicbotws/src/joy_to_cmd_vel' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmd_vel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_to_cmd_vel build --build-base /home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmd_vel/build install --record /home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmd_vel/install.log --single-version-externally-managed install_data
+[2.965s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel' for CMake config files
+[2.966s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/lib'
+[2.966s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/bin'
+[2.966s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/lib/pkgconfig/joy_to_cmd_vel.pc'
+[2.967s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/lib/python3.12/site-packages'
+[2.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_to_cmd_vel', 'pythonpath')
+[2.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/share/joy_to_cmd_vel/hook/pythonpath.ps1'
+[2.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/share/joy_to_cmd_vel/hook/pythonpath.dsv'
+[2.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/share/joy_to_cmd_vel/hook/pythonpath.sh'
+[2.971s] Level 1:colcon.colcon_core.environment:checking '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/bin'
+[2.971s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_to_cmd_vel)
+[2.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/share/joy_to_cmd_vel/package.ps1'
+[2.974s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/share/joy_to_cmd_vel/package.dsv'
+[2.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/share/joy_to_cmd_vel/package.sh'
+[2.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/share/joy_to_cmd_vel/package.bash'
+[2.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/share/joy_to_cmd_vel/package.zsh'
+[2.979s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/share/colcon-core/packages/joy_to_cmd_vel)
+[2.980s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.981s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.981s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.981s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.993s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.993s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.994s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.040s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.041s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/harshdev/Learning-ROS/basicbotws/install/local_setup.ps1'
+[3.044s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/harshdev/Learning-ROS/basicbotws/install/_local_setup_util_ps1.py'
+[3.048s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/harshdev/Learning-ROS/basicbotws/install/setup.ps1'
+[3.052s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/harshdev/Learning-ROS/basicbotws/install/local_setup.sh'
+[3.054s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/harshdev/Learning-ROS/basicbotws/install/_local_setup_util_sh.py'
+[3.057s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/harshdev/Learning-ROS/basicbotws/install/setup.sh'
+[3.062s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/harshdev/Learning-ROS/basicbotws/install/local_setup.bash'
+[3.064s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/harshdev/Learning-ROS/basicbotws/install/setup.bash'
+[3.068s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/harshdev/Learning-ROS/basicbotws/install/local_setup.zsh'
+[3.069s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/harshdev/Learning-ROS/basicbotws/install/setup.zsh'

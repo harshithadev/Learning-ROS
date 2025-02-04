@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/joy_to_cmd_vel/joy_to_cmd_vel.egg-info/PKG-INFO
+writing dependency_links to ../../build/joy_to_cmd_vel/joy_to_cmd_vel.egg-info/dependency_links.txt
+writing entry points to ../../build/joy_to_cmd_vel/joy_to_cmd_vel.egg-info/entry_points.txt
+writing requirements to ../../build/joy_to_cmd_vel/joy_to_cmd_vel.egg-info/requires.txt
+writing top-level names to ../../build/joy_to_cmd_vel/joy_to_cmd_vel.egg-info/top_level.txt
+reading manifest file '../../build/joy_to_cmd_vel/joy_to_cmd_vel.egg-info/SOURCES.txt'
+writing manifest file '../../build/joy_to_cmd_vel/joy_to_cmd_vel.egg-info/SOURCES.txt'
+running build
+running build_py
+copying joy_to_cmd_vel/joy_to_cmd_vel.py -> /home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmd_vel/build/lib/joy_to_cmd_vel
+running install
+running install_lib
+copying /home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmd_vel/build/lib/joy_to_cmd_vel/joy_to_cmd_vel.py -> /home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/lib/python3.12/site-packages/joy_to_cmd_vel
+byte-compiling /home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/lib/python3.12/site-packages/joy_to_cmd_vel/joy_to_cmd_vel.py to joy_to_cmd_vel.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/lib/python3.12/site-packages/joy_to_cmd_vel-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/joy_to_cmd_vel/joy_to_cmd_vel.egg-info to /home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/lib/python3.12/site-packages/joy_to_cmd_vel-0.0.0-py3.12.egg-info
+running install_scripts
+Installing joy_to_cmd_vel script to /home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/lib/joy_to_cmd_vel
+writing list of installed files to '/home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmd_vel/install.log'

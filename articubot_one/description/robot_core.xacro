@@ -180,8 +180,9 @@
 
     <gazebo reference="caster_wheel">
         <material>Gazebo/White</material>
-        <mu1 value="0.001"/>
-        <mu2 value="0.001"/>
+        <!--the lesser the value the lesser the friction-->
+        <mu1 value="0.000000000000000001"/>
+        <mu2 value="0.000000000000000001"/>
     </gazebo>
 
 </robot>

@@ -1,0 +1,24 @@
+[1.579s] Invoking command in '/home/harshdev/Learning-ROS/basicbotws/src/joy_to_cmd_vel': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmd_vel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_to_cmd_vel build --build-base /home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmd_vel/build install --record /home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmd_vel/install.log --single-version-externally-managed install_data
+[2.033s] running egg_info
+[2.058s] writing ../../build/joy_to_cmd_vel/joy_to_cmd_vel.egg-info/PKG-INFO
+[2.058s] writing dependency_links to ../../build/joy_to_cmd_vel/joy_to_cmd_vel.egg-info/dependency_links.txt
+[2.058s] writing entry points to ../../build/joy_to_cmd_vel/joy_to_cmd_vel.egg-info/entry_points.txt
+[2.059s] writing requirements to ../../build/joy_to_cmd_vel/joy_to_cmd_vel.egg-info/requires.txt
+[2.059s] writing top-level names to ../../build/joy_to_cmd_vel/joy_to_cmd_vel.egg-info/top_level.txt
+[2.120s] reading manifest file '../../build/joy_to_cmd_vel/joy_to_cmd_vel.egg-info/SOURCES.txt'
+[2.122s] writing manifest file '../../build/joy_to_cmd_vel/joy_to_cmd_vel.egg-info/SOURCES.txt'
+[2.123s] running build
+[2.123s] running build_py
+[2.123s] copying joy_to_cmd_vel/joy_to_cmd_vel.py -> /home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmd_vel/build/lib/joy_to_cmd_vel
+[2.123s] running install
+[2.131s] running install_lib
+[2.156s] copying /home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmd_vel/build/lib/joy_to_cmd_vel/joy_to_cmd_vel.py -> /home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/lib/python3.12/site-packages/joy_to_cmd_vel
+[2.157s] byte-compiling /home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/lib/python3.12/site-packages/joy_to_cmd_vel/joy_to_cmd_vel.py to joy_to_cmd_vel.cpython-312.pyc
+[2.160s] running install_data
+[2.160s] running install_egg_info
+[2.194s] removing '/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/lib/python3.12/site-packages/joy_to_cmd_vel-0.0.0-py3.12.egg-info' (and everything under it)
+[2.195s] Copying ../../build/joy_to_cmd_vel/joy_to_cmd_vel.egg-info to /home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/lib/python3.12/site-packages/joy_to_cmd_vel-0.0.0-py3.12.egg-info
+[2.197s] running install_scripts
+[2.393s] Installing joy_to_cmd_vel script to /home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/lib/joy_to_cmd_vel
+[2.394s] writing list of installed files to '/home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmd_vel/install.log'
+[2.491s] Invoked command in '/home/harshdev/Learning-ROS/basicbotws/src/joy_to_cmd_vel' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmd_vel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshdev/Learning-ROS/basicbotws/install/joy_to_cmd_vel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_to_cmd_vel build --build-base /home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmd_vel/build install --record /home/harshdev/Learning-ROS/basicbotws/build/joy_to_cmd_vel/install.log --single-version-externally-managed install_data

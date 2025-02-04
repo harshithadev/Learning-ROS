@@ -8,7 +8,7 @@ class JoyToCmdVel(Node):
         super().__init__('joy_to_cmd_vel')
         
         # Create a publisher for the /cmd_vel topic
-        self.cmd_vel_publisher = self.create_publisher(Twist, '/cmd_vel', 10)
+        self.cmd_vel_publisher = self.create_publisher(Twist, 'diff_cont/cmd_vel_unstamped', 10)
         
         # Create a subscriber to the /joy topic
         self.joy_subscriber = self.create_subscription(
