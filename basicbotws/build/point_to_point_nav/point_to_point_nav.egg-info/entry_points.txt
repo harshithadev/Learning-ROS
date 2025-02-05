@@ -1,0 +1,2 @@
+[console_scripts]
+point_to_point_nav = point_to_point_nav.point_to_point_nav:main

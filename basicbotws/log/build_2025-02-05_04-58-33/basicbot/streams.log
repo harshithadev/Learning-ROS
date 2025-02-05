@@ -1,0 +1,33 @@
+[0.048s] Invoking command in '/home/harshdev/Learning-ROS/basicbotws/build/basicbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/harshdev/Learning-ROS/basicbotws/build/basicbot -- -j12 -l12
+[0.678s] Invoked command in '/home/harshdev/Learning-ROS/basicbotws/build/basicbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/harshdev/Learning-ROS/basicbotws/build/basicbot -- -j12 -l12
+[0.693s] Invoking command in '/home/harshdev/Learning-ROS/basicbotws/build/basicbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/harshdev/Learning-ROS/basicbotws/build/basicbot
+[0.708s] -- Install configuration: ""
+[0.709s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/config
+[0.709s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/config/controllers.yaml
+[0.709s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/description
+[0.709s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/description/inertial_macros.xacro
+[0.709s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/description/gazebo_control.xacro
+[0.710s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/description/robot.urdf.xacro
+[0.710s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/description/robot_core.xacro
+[0.710s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/description/ros2_control.xacro
+[0.710s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/launch
+[0.711s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/launch/rsp.launch.py
+[0.711s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/launch/sim.launch.py
+[0.713s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/worlds
+[0.713s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/bot
+[0.714s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/ament_index/resource_index/package_run_dependencies/basicbot
+[0.714s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/ament_index/resource_index/parent_prefix_path/basicbot
+[0.714s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/environment/ament_prefix_path.sh
+[0.715s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/environment/ament_prefix_path.dsv
+[0.715s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/environment/path.sh
+[0.715s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/environment/path.dsv
+[0.715s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/local_setup.bash
+[0.716s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/local_setup.sh
+[0.716s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/local_setup.zsh
+[0.716s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/local_setup.dsv
+[0.717s] -- Installing: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/package.dsv
+[0.717s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/ament_index/resource_index/packages/basicbot
+[0.718s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/cmake/basicbotConfig.cmake
+[0.718s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/cmake/basicbotConfig-version.cmake
+[0.718s] -- Up-to-date: /home/harshdev/Learning-ROS/basicbotws/install/basicbot/share/basicbot/package.xml
+[0.719s] Invoked command in '/home/harshdev/Learning-ROS/basicbotws/build/basicbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/harshdev/Learning-ROS/basicbotws/build/basicbot
