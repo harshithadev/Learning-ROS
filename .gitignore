@@ -1,8 +1,8 @@
-alffybot/build
-alffybot/.vscode
-alffybot/log
-articubot_one/build
-articubot_one/log
-basicbotws/.vscode
-basicbotws/build
-basicbotws/log
+alffybot/build/
+alffybot/.vscode/
+alffybot/log/
+articubot_one/build/
+articubot_one/log/
+basicbotws/.vscode/
+basicbotws/build/
+basicbotws/log/
