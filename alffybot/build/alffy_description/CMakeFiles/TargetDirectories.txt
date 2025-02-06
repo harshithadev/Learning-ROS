@@ -1,9 +1,0 @@
-/home/harshdev/Learning-ROS/alffybot/build/alffy_description/CMakeFiles/uninstall.dir
-/home/harshdev/Learning-ROS/alffybot/build/alffy_description/CMakeFiles/alffy_description_uninstall.dir
-/home/harshdev/Learning-ROS/alffybot/build/alffy_description/CMakeFiles/test.dir
-/home/harshdev/Learning-ROS/alffybot/build/alffy_description/CMakeFiles/edit_cache.dir
-/home/harshdev/Learning-ROS/alffybot/build/alffy_description/CMakeFiles/rebuild_cache.dir
-/home/harshdev/Learning-ROS/alffybot/build/alffy_description/CMakeFiles/list_install_components.dir
-/home/harshdev/Learning-ROS/alffybot/build/alffy_description/CMakeFiles/install.dir
-/home/harshdev/Learning-ROS/alffybot/build/alffy_description/CMakeFiles/install/local.dir
-/home/harshdev/Learning-ROS/alffybot/build/alffy_description/CMakeFiles/install/strip.dir
