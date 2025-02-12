@@ -1,4 +1,0 @@
-[console_scripts]
-parameters = alffy_talks.parameters:main
-publisher = alffy_talks.publisher:main
-subscriber = alffy_talks.subscriber:main
