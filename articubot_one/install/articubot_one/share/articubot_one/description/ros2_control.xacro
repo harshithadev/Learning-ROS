@@ -63,4 +63,9 @@
         </plugin>
     </gazebo>
 
+<!-- 
+Try this when you do not have a joystick handy
+ros2 topic pub /diff_cont/cmd_vel_unstamped geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
+ -->
+
 </robot>

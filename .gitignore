@@ -1,3 +1,7 @@
-.vscode/
-log/
-build/
+articubot_one/build/
+articubot_one/log/
+basicbotws/.vscode/
+basicbotws/build/
+basicbotws/log/
+alfred_ws/build/
+alfred_ws/log/
