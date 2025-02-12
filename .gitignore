@@ -1,11 +1,3 @@
-basicbotws/.vscode/
-basicbotws/log/
-basicbotws/build/
-
-articubot_one/.vscode/
-articubot_one/log/
-articubot_one/build/
-
-alfred_ws/.vscode/
-alfred_ws/log/
-alfred_ws/build/
+.vscode/
+log/
+bbuild/
