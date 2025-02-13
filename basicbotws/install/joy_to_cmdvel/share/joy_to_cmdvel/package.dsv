@@ -1,8 +1,0 @@
-source;share/joy_to_cmdvel/hook/cmake_prefix_path.ps1
-source;share/joy_to_cmdvel/hook/cmake_prefix_path.dsv
-source;share/joy_to_cmdvel/hook/cmake_prefix_path.sh
-source;share/joy_to_cmdvel/local_setup.bash
-source;share/joy_to_cmdvel/local_setup.dsv
-source;share/joy_to_cmdvel/local_setup.ps1
-source;share/joy_to_cmdvel/local_setup.sh
-source;share/joy_to_cmdvel/local_setup.zsh
