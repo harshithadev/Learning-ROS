@@ -12,6 +12,7 @@
 /home/harshdev/Learning-ROS/articubot_one/install/articubot_one/share/articubot_one/config/joystick.yaml
 /home/harshdev/Learning-ROS/articubot_one/install/articubot_one/share/articubot_one/config/twist_mux.yaml
 /home/harshdev/Learning-ROS/articubot_one/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+/home/harshdev/Learning-ROS/articubot_one/install/articubot_one/share/articubot_one/description/imu.xacro
 /home/harshdev/Learning-ROS/articubot_one/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
 /home/harshdev/Learning-ROS/articubot_one/install/articubot_one/share/articubot_one/description/depth_camera.xacro
 /home/harshdev/Learning-ROS/articubot_one/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
