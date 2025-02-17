@@ -5,3 +5,6 @@ basicbotws/.vscode/
 basicbotws/build/
 basicbotws/log/
 basicbotws/install/
+alfred_ws/build/
+alfred_ws/log/
+alfred_ws/install/
