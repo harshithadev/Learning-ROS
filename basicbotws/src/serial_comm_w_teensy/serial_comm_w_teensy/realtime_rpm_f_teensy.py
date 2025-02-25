@@ -1,10 +1,9 @@
-# works for hardcoded vel 
-
 import rclpy
 from rclpy.node import Node
 import serial
 import time
 from std_msgs.msg import String
+from geometry_msgs.msg import Twist
 
 class SerialBridge(Node):
     def __init__(self):
@@ -18,19 +17,23 @@ class SerialBridge(Node):
         # Publisher for motor RPM feedback
         self.rpm_publisher = self.create_publisher(String, '/motor_rpm', 10)
 
+        # Subscriber for cmd_vel
+        self.cmd_vel_subscription = self.create_subscription(
+            Twist,
+            '/cmd_vel',
+            self.cmd_vel_callback,
+            10)
+
         # Timer to read motor feedback
         self.timer = self.create_timer(0.1, self.read_serial)
 
         # Robot Parameters
         self.wheel_radius = 0.075  # 7.5 cm (0.075 m)
-        self.wheel_separation = 0.5  # 30 cm (0.3 m)
+        self.wheel_separation = 0.5  # 50 cm (0.5 m)
 
-        # **Hardcoded Velocities (Will be replaced in Step 2)**
-        self.linear_x = 0.5  # m/s (Forward speed)
-        self.angular_z = 0.0  # rad/s (No rotation)
-
-        # Convert Velocity to RPM and Send to Teensy
-        self.send_velocity_as_rpm()
+        # Initial velocities
+        self.linear_x = 0.0
+        self.angular_z = 0.0
 
     def connect_serial(self):
         """Try to establish a serial connection, handle disconnections and reboots."""
@@ -43,6 +46,12 @@ class SerialBridge(Node):
             except serial.SerialException:
                 self.get_logger().error(f"Teensy not found on {self.serial_port}, retrying...")
                 time.sleep(2)  # Wait before retrying
+
+    def cmd_vel_callback(self, msg):
+        """Callback function to handle incoming velocity commands."""
+        self.linear_x = msg.linear.x
+        self.angular_z = msg.angular.z
+        self.send_velocity_as_rpm()
 
     def velocity_to_rpm(self, linear_x, angular_z):
         """Convert linear and angular velocity to wheel RPM"""
@@ -92,13 +101,7 @@ class SerialBridge(Node):
                 self.get_logger().info("Attempting to reconnect...")
                 self.ser = serial.Serial(self.serial_port, self.baud_rate, timeout=2)
                 self.get_logger().info(f"Reconnected to Teensy on {self.serial_port}")
-
                 time.sleep(2)  # Wait for Teensy to initialize
-
-                # **Resend Velocity as RPM after reconnecting**
-                self.send_velocity_as_rpm()
-                self.get_logger().info("Sent fresh SETPOINT after reconnecting")
-
                 return
             except serial.SerialException as e:
                 self.get_logger().error(f"Reconnection failed: {e}, retrying in 2s...")
