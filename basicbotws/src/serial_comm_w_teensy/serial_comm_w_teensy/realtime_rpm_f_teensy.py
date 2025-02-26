@@ -117,3 +117,6 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+
+#  Use the below mentioned command to publish to said topic (for testing)
+# ros2 topic pub --once /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 1.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.0}}"
