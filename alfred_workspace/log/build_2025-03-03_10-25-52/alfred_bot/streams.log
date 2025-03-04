@@ -1,0 +1,20 @@
+[0.021s] Invoking command in '/home/harshdev/alfred_workspace/build/alfred_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/harshdev/alfred_workspace/build/alfred_bot -- -j12 -l12
+[0.328s] Invoked command in '/home/harshdev/alfred_workspace/build/alfred_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/harshdev/alfred_workspace/build/alfred_bot -- -j12 -l12
+[0.331s] Invoking command in '/home/harshdev/alfred_workspace/build/alfred_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/harshdev/alfred_workspace/build/alfred_bot
+[0.347s] -- Install configuration: ""
+[0.347s] -- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_bot/share/alfred_bot/config
+[0.349s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.349s]   file INSTALL cannot find
+[0.349s]   "/home/harshdev/alfred_workspace/src/alfred_bot/worlds": No such file or
+[0.350s]   directory.
+[0.350s] 
+[0.350s] [0m
+[0.350s] -- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_bot/share/alfred_bot/description
+[0.351s] -- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_bot/share/alfred_bot/description/inertial_macros.xacro
+[0.351s] -- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_bot/share/alfred_bot/description/materials.xacro
+[0.351s] -- Installing: /home/harshdev/alfred_workspace/install/alfred_bot/share/alfred_bot/description/robot.urdf.xacro
+[0.352s] -- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_bot/share/alfred_bot/description/robot_core.xacro
+[0.352s] -- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_bot/share/alfred_bot/description/robot_measurements.xacro
+[0.352s] -- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_bot/share/alfred_bot/launch
+[0.353s] -- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_bot/share/alfred_bot/launch/rsp.launch.py
+[0.374s] Invoked command in '/home/harshdev/alfred_workspace/build/alfred_bot' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/harshdev/alfred_workspace/build/alfred_bot

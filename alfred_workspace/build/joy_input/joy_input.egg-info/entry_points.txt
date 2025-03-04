@@ -1,0 +1,2 @@
+[console_scripts]
+joy_to_cmdvel = joy_input.joy_to_cmdvel:main

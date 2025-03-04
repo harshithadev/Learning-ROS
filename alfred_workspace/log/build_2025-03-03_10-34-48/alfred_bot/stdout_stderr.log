@@ -1,0 +1,16 @@
+-- Install configuration: ""
+-- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_bot/share/alfred_bot/config
+-- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_bot/share/alfred_bot/description
+-- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_bot/share/alfred_bot/description/inertial_macros.xacro
+-- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_bot/share/alfred_bot/description/materials.xacro
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/harshdev/alfred_workspace/src/alfred_bot/worlds": No such file or
+  directory.
+
+[0m
+-- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_bot/share/alfred_bot/description/robot.urdf.xacro
+-- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_bot/share/alfred_bot/description/robot_core.xacro
+-- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_bot/share/alfred_bot/description/robot_measurements.xacro
+-- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_bot/share/alfred_bot/launch
+-- Installing: /home/harshdev/alfred_workspace/install/alfred_bot/share/alfred_bot/launch/rsp.launch.py

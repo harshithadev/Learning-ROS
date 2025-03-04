@@ -1,0 +1,76 @@
+[0.181s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/harshdev/alfred_workspace']
+[0.181s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/harshdev/alfred_workspace'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d5c1523a210>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7d5c151b34a0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7d5c151b34a0>>, mixin_verb=('list',))
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.232s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/harshdev/alfred_workspace'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace) by extension 'ros'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace) by extensions ['cmake', 'python']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace) by extension 'cmake'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace) by extension 'python'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace) by extensions ['python_setup_py']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace) by extension 'python_setup_py'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/build) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/build) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/build) ignored
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/install) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/install) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/install) ignored
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/log) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/log) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/log) ignored
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src) by extension 'ros'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src) by extensions ['cmake', 'python']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src) by extension 'cmake'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src) by extension 'python'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src) by extensions ['python_setup_py']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src) by extension 'python_setup_py'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/alfred_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/alfred_bot) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/alfred_bot) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/alfred_bot) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/alfred_bot) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/alfred_bot) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/alfred_bot) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/alfred_bot) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/alfred_bot) by extension 'ros'
+[0.274s] DEBUG:colcon.colcon_core.package_identification:Package '/home/harshdev/alfred_workspace/src/alfred_bot' with type 'ros.ament_cmake' and name 'alfred_bot'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/alfred_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/alfred_sim) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/alfred_sim) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/alfred_sim) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/alfred_sim) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/alfred_sim) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/alfred_sim) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/alfred_sim) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/alfred_sim) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package '/home/harshdev/alfred_workspace/src/alfred_sim' with type 'ros.ament_cmake' and name 'alfred_sim'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/joy_input) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/joy_input) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/joy_input) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/joy_input) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/joy_input) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/joy_input) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/joy_input) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/joy_input) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/harshdev/alfred_workspace/src/joy_input) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package '/home/harshdev/alfred_workspace/src/joy_input' with type 'ros.ament_python' and name 'joy_input'
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

@@ -1,0 +1,25 @@
+[0.663s] Invoking command in '/home/harshdev/alfred_workspace/src/joy_input': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/harshdev/alfred_workspace/build/joy_input/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshdev/alfred_workspace/install/joy_input/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_input build --build-base /home/harshdev/alfred_workspace/build/joy_input/build install --record /home/harshdev/alfred_workspace/build/joy_input/install.log --single-version-externally-managed install_data
+[0.843s] running egg_info
+[0.843s] creating ../../build/joy_input/joy_input.egg-info
+[0.853s] writing ../../build/joy_input/joy_input.egg-info/PKG-INFO
+[0.853s] writing dependency_links to ../../build/joy_input/joy_input.egg-info/dependency_links.txt
+[0.854s] writing requirements to ../../build/joy_input/joy_input.egg-info/requires.txt
+[0.854s] writing top-level names to ../../build/joy_input/joy_input.egg-info/top_level.txt
+[0.854s] writing manifest file '../../build/joy_input/joy_input.egg-info/SOURCES.txt'
+[0.875s] reading manifest file '../../build/joy_input/joy_input.egg-info/SOURCES.txt'
+[0.876s] writing manifest file '../../build/joy_input/joy_input.egg-info/SOURCES.txt'
+[0.876s] running build
+[0.876s] running build_py
+[0.876s] creating /home/harshdev/alfred_workspace/build/joy_input/build
+[0.876s] creating /home/harshdev/alfred_workspace/build/joy_input/build/lib
+[0.876s] creating /home/harshdev/alfred_workspace/build/joy_input/build/lib/joy_input
+[0.876s] copying joy_input/__init__.py -> /home/harshdev/alfred_workspace/build/joy_input/build/lib/joy_input
+[0.876s] running install
+[0.880s] running install_lib
+[0.891s] running install_data
+[0.891s] running install_egg_info
+[0.903s] removing '/home/harshdev/alfred_workspace/install/joy_input/lib/python3.12/site-packages/joy_input-0.0.0-py3.12.egg-info' (and everything under it)
+[0.903s] Copying ../../build/joy_input/joy_input.egg-info to /home/harshdev/alfred_workspace/install/joy_input/lib/python3.12/site-packages/joy_input-0.0.0-py3.12.egg-info
+[0.904s] running install_scripts
+[0.979s] writing list of installed files to '/home/harshdev/alfred_workspace/build/joy_input/install.log'
+[0.998s] Invoked command in '/home/harshdev/alfred_workspace/src/joy_input' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/harshdev/alfred_workspace/build/joy_input/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshdev/alfred_workspace/install/joy_input/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_input build --build-base /home/harshdev/alfred_workspace/build/joy_input/build install --record /home/harshdev/alfred_workspace/build/joy_input/install.log --single-version-externally-managed install_data

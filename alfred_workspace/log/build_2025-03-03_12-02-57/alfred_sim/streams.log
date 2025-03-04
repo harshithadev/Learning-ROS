@@ -1,0 +1,20 @@
+[0.014s] Invoking command in '/home/harshdev/alfred_workspace/build/alfred_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/harshdev/alfred_workspace/build/alfred_sim -- -j12 -l12
+[0.175s] Invoked command in '/home/harshdev/alfred_workspace/build/alfred_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/harshdev/alfred_workspace/build/alfred_sim -- -j12 -l12
+[0.176s] Invoking command in '/home/harshdev/alfred_workspace/build/alfred_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/harshdev/alfred_workspace/build/alfred_sim
+[0.183s] -- Install configuration: ""
+[0.186s] -- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_sim/share/ament_index/resource_index/package_run_dependencies/alfred_sim
+[0.186s] -- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_sim/share/ament_index/resource_index/parent_prefix_path/alfred_sim
+[0.186s] -- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_sim/share/alfred_sim/environment/ament_prefix_path.sh
+[0.186s] -- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_sim/share/alfred_sim/environment/ament_prefix_path.dsv
+[0.186s] -- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_sim/share/alfred_sim/environment/path.sh
+[0.186s] -- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_sim/share/alfred_sim/environment/path.dsv
+[0.186s] -- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_sim/share/alfred_sim/local_setup.bash
+[0.187s] -- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_sim/share/alfred_sim/local_setup.sh
+[0.187s] -- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_sim/share/alfred_sim/local_setup.zsh
+[0.187s] -- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_sim/share/alfred_sim/local_setup.dsv
+[0.187s] -- Installing: /home/harshdev/alfred_workspace/install/alfred_sim/share/alfred_sim/package.dsv
+[0.187s] -- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_sim/share/ament_index/resource_index/packages/alfred_sim
+[0.187s] -- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_sim/share/alfred_sim/cmake/alfred_simConfig.cmake
+[0.187s] -- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_sim/share/alfred_sim/cmake/alfred_simConfig-version.cmake
+[0.187s] -- Up-to-date: /home/harshdev/alfred_workspace/install/alfred_sim/share/alfred_sim/package.xml
+[0.191s] Invoked command in '/home/harshdev/alfred_workspace/build/alfred_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/harshdev/alfred_workspace/build/alfred_sim
