@@ -47,8 +47,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/home/harshdev/Learning-ROS/basicbotws/src/basicbot/config"
     "/home/harshdev/Learning-ROS/basicbotws/src/basicbot/description"
     "/home/harshdev/Learning-ROS/basicbotws/src/basicbot/launch"
-    "/home/harshdev/Learning-ROS/basicbotws/src/basicbot/worlds"
-    "/home/harshdev/Learning-ROS/basicbotws/src/basicbot/bot"
     )
 endif()
 
