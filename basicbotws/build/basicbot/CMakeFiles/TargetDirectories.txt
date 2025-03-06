@@ -1,9 +1,0 @@
-/home/harshdev/Learning-ROS/basicbotws/build/basicbot/CMakeFiles/uninstall.dir
-/home/harshdev/Learning-ROS/basicbotws/build/basicbot/CMakeFiles/basicbot_uninstall.dir
-/home/harshdev/Learning-ROS/basicbotws/build/basicbot/CMakeFiles/test.dir
-/home/harshdev/Learning-ROS/basicbotws/build/basicbot/CMakeFiles/edit_cache.dir
-/home/harshdev/Learning-ROS/basicbotws/build/basicbot/CMakeFiles/rebuild_cache.dir
-/home/harshdev/Learning-ROS/basicbotws/build/basicbot/CMakeFiles/list_install_components.dir
-/home/harshdev/Learning-ROS/basicbotws/build/basicbot/CMakeFiles/install.dir
-/home/harshdev/Learning-ROS/basicbotws/build/basicbot/CMakeFiles/install/local.dir
-/home/harshdev/Learning-ROS/basicbotws/build/basicbot/CMakeFiles/install/strip.dir

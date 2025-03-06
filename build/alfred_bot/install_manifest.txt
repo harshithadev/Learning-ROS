@@ -1,0 +1,15 @@
+/home/harshdev/Learning-ROS/install/alfred_bot/share/ament_index/resource_index/package_run_dependencies/alfred_bot
+/home/harshdev/Learning-ROS/install/alfred_bot/share/ament_index/resource_index/parent_prefix_path/alfred_bot
+/home/harshdev/Learning-ROS/install/alfred_bot/share/alfred_bot/environment/ament_prefix_path.sh
+/home/harshdev/Learning-ROS/install/alfred_bot/share/alfred_bot/environment/ament_prefix_path.dsv
+/home/harshdev/Learning-ROS/install/alfred_bot/share/alfred_bot/environment/path.sh
+/home/harshdev/Learning-ROS/install/alfred_bot/share/alfred_bot/environment/path.dsv
+/home/harshdev/Learning-ROS/install/alfred_bot/share/alfred_bot/local_setup.bash
+/home/harshdev/Learning-ROS/install/alfred_bot/share/alfred_bot/local_setup.sh
+/home/harshdev/Learning-ROS/install/alfred_bot/share/alfred_bot/local_setup.zsh
+/home/harshdev/Learning-ROS/install/alfred_bot/share/alfred_bot/local_setup.dsv
+/home/harshdev/Learning-ROS/install/alfred_bot/share/alfred_bot/package.dsv
+/home/harshdev/Learning-ROS/install/alfred_bot/share/ament_index/resource_index/packages/alfred_bot
+/home/harshdev/Learning-ROS/install/alfred_bot/share/alfred_bot/cmake/alfred_botConfig.cmake
+/home/harshdev/Learning-ROS/install/alfred_bot/share/alfred_bot/cmake/alfred_botConfig-version.cmake
+/home/harshdev/Learning-ROS/install/alfred_bot/share/alfred_bot/package.xml
