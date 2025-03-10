@@ -1,2 +1,0 @@
-[console_scripts]
-joy_to_cmd_vel = joy_to_cmd_vel.joy_to_cmd_vel:main
