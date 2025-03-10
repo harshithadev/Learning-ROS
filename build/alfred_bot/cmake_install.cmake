@@ -48,7 +48,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/home/harshdev/Learning-ROS/alfred_bot/description"
     "/home/harshdev/Learning-ROS/alfred_bot/launch"
     "/home/harshdev/Learning-ROS/alfred_bot/worlds"
-    "/home/harshdev/Learning-ROS/alfred_bot/hardware"
     "/home/harshdev/Learning-ROS/alfred_bot/include"
     "/home/harshdev/Learning-ROS/alfred_bot/rviz"
     )

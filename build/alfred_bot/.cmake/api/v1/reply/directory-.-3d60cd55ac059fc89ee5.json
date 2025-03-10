@@ -233,7 +233,6 @@
 				"description",
 				"launch",
 				"worlds",
-				"hardware",
 				"include",
 				"rviz"
 			],
