@@ -17,5 +17,9 @@ sudo apt install -y ros-jazzy-tf-transformations
 sudo apt install -y '~nros-jazzy-rqt*'
 sudo apt install -y ros-jazzy-twist-stamper
 sudo apt install -y ros-jazzy-twist-mux
+sudo apt install -y libserial-dev
+sudo apt install -y ros-jazzy-navigation2
+sudo apt install -y ros-jazzy-nav2-bringup
+sudo apt install -y ros-jazzy-nav2-minimal-tb*
 
 echo "All commands executed successfully."
