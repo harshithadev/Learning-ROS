@@ -16,5 +16,8 @@ Run the script with:
     ./install_ros2_jazzy.sh
 This script will automatically execute all the installation commands for the ROS Jazzy packages you mentioned and automatically respond with "yes" to any prompts that require confirmation. 
 
+also make sure you cofigure your environment so it comes easy to source or install old/new packages! The following link has a comprehensive list for us to achieve this : 
+https://docs.ros.org/en/jazzy/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html
+
 
 ## Further : 
